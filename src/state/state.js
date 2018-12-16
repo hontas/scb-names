@@ -1,5 +1,5 @@
 import { location } from '@hyperapp/router';
 
-export const state = {
+export default {
   location: location.state
 };
