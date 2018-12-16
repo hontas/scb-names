@@ -1,0 +1,26 @@
+{
+  "name": "hyperapp-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "cypress run",
+    "ci": "server-test 1234",
+    "build": "parcel build index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hyperapp/router": "^0.7.1",
+    "hyperapp": "^1.2.9",
+    "postcss-modules": "^1.4.1"
+  },
+  "devDependencies": {
+    "cypress": "^3.1.2",
+    "parcel-bundler": "^1.10.3",
+    "start-server-and-test": "^1.7.9",
+    "typescript": "^3.1.6"
+  }
+}
