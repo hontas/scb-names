@@ -15,5 +15,7 @@ const View = (s, a) => (
   </Layout>
 );
 
-window.__app = app(state, actions, View, document.body); // eslint-disable-line no-underscore-dangle
+const main = app(state, actions, View, document.body);
+main.getNames();
+window.__app = main; // eslint-disable-line no-underscore-dangle
 const unsubscribe = location.subscribe(window.__app.location); // eslint-disable-line

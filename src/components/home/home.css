@@ -1,2 +1,24 @@
 .home {
+  padding: 1em;
+}
+
+.table {
+  background: whitesmoke;
+  margin-top: 1em;
+}
+
+.row {
+  display: flex;
+  justify-content: cemter;
+  align-items: center;
+}
+
+.cell {
+  flex: 1;
+  padding: 0.5em 1em;
+}
+
+.cellHead {
+  font-weight: bold;
+  text-transform: capitalize;
 }
